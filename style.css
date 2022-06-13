@@ -20,19 +20,23 @@ p{
 header{
     background: url(images/bg-header-desktop.png) no-repeat center;
     height: auto;
+    width: 100%;
+  
 }
 .header-area{
+    height: auto;
     margin: 0 auto;
     text-align: center;
     width: 50%;
-    padding: 4rem;
+  
 }
 .header-area img{
     width: 15%;
+    margin-top: 3rem;
     
 }
 .header-area article{
-    width: 50vw;
+    width: 100%;
     margin-top: 1rem;  
 }
 .header-area article h1 {
@@ -117,6 +121,10 @@ main{
     color: rgba(0, 0, 0, 0.479);
     line-height: 1.3rem;
 }
+.pc-dt{
+    margin-bottom: 2rem;
+
+}
 
 
 /*MAIN- mob-area*/
@@ -172,8 +180,6 @@ main{
    
 }
 
-
-
 .empre {
     margin: 3rem 0;
     text-align: center;
@@ -227,4 +233,204 @@ footer{
   }
   .icon-area img{
       margin-left: 0.5rem;
+  }
+  .list{
+    display: flex;
+  }
+
+  @media(max-width: 768px){
+
+.mob-area img {
+    width: 70vw;
+    margin: 0px 7rem;
+}
+.header-area article{
+    font-size: 1.2rem;
+
+}
+.btn-ios {
+    font-size: 1rem;
+}
+.btn-mac {
+    font-size: 1rem;
+}
+  }
+
+  @media(max-width: 768px){
+  
+    .header-area {
+        height: auto;
+        text-align: center;
+        width: 100%;
+    }
+    .header-area img {
+        width: 16%;
+        margin-top: 3rem;
+    }
+    .header-area article h1 {
+        color: rgba(0, 0, 0, 0.779);
+        font-size: 1.9rem;
+    }
+    .pc-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-ios {
+        font-size: 0.8rem;
+    }
+    .btn-mac {
+        font-size: 0.8rem;
+    }
+    .pc-area article {
+        margin: auto 0;
+        width: 50%;
+    }
+    .pc-area img {
+        width: 70%;
+        position: relative;
+        right: 0rem;
+    }
+    .p-pc {
+        width: 100%;
+        color: rgba(0, 0, 0, 0.479);
+        line-height: 1.3rem;
+    }
+    .pc-dt{
+        text-align: center;
+        margin: 5rem auto;
+        margin-bottom: 0rem;
+    }
+ 
+    
+    .art-solo {
+        margin: 0 auto;
+        width: 86vw;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .mob-area {
+        margin: 4rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mob-area img {
+        width: 70vw;
+        margin: 0px 3rem;
+    }
+    .mob-area article {
+        text-align: center;
+        width: 81%;
+        margin: 0 auto;
+    }
+    .item-vt img {
+        width: 10%;
+    }
+    .item-vt {
+        text-align: center;
+        width: 50vw;
+        margin: 0 auto 2rem auto;
+    }
+    .vt-area {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+    .vanta-area {
+        height: auto;
+    }
+    .vanta-area article {
+        text-align: center;
+        width: 71%;
+        margin: 0 auto;
+        margin-bottom: 5rem;
+    }
+    .empre {
+        text-align: center;
+        height: 18vh;
+    }
+    .empre img {
+        width: 14vw;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .down-area article {
+        width: 66%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    .footer-area {
+        display: flex;
+        flex-direction: row;
+        margin: 0 0rem;
+        padding: 1rem;
+        justify-content: space-between;
+    }
+    .icon-area{
+        margin-right: 2rem;
+    
+    }
+  }
+  @media (max-width:425px){
+    header {
+        background: url(images/bg-header-desktop.png) no-repeat center;
+        height: 51vh;
+        width: 100vw;
+    }
+    .header-area {
+        height: auto;
+        text-align: center;
+        width: 80vw;
+    }
+    .header-area img {
+        width: 16%;
+        margin-top: 1rem;
+    }    
+    .btns {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-ios {
+        font-size: 1rem;
+        margin-bottom:0.3rem;
+    }
+    .btn-mac {
+        font-size: 1rem;
+    }
+    .footer-area {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0rem;
+        padding: 1rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-area ul {
+        margin: 0rem;
+    }
+    .footer-area ul a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.505);
+        line-height: 1.6rem;
+    }
+    .footer-area #img img {
+        width: 10vw;
+        margin: 0 3rem 2rem;
+    }
+    .icon-area{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    .icon-area img{
+        width: 16px;
+        
+    }
+    .list {
+        text-align: center;
+        line-height: 1.9rem;
+        flex-direction: column;
+    }
   }
