@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'Bai_Jamjuree' ;
+    src: url('fonte/Bai_Jamjuree/BaiJamjuree-Regular.ttf') format('truetype');
+}
+body{
+    font-family: 'Bai_Jamjuree' ;
+}
+
+/*header*/
+
+header{
+    
+}
