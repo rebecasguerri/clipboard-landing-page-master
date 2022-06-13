@@ -9,9 +9,221 @@
 body{
     font-family: 'Bai_Jamjuree' ;
 }
-
+h1{
+    color: rgba(0, 0, 0, 0.779);  
+}
+p{
+    color: rgba(0, 0, 0, 0.479); 
+}
 /*header*/
 
 header{
+    background: url(images/bg-header-desktop.png) no-repeat center;
+    height: auto;
+}
+.header-area{
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    padding: 4rem;
+}
+.header-area img{
+    width: 15%;
     
 }
+.header-area article{
+    width: 50vw;
+    margin-top: 1rem;  
+}
+.header-area article h1 {
+    color: rgba(0, 0, 0, 0.779);
+    font-size: 2rem;
+}
+.header-area article p{
+    margin-top: 1rem; 
+    color: rgba(0, 0, 0, 0.479);
+}
+.btns{
+    margin-top: 1rem; 
+    
+}
+
+
+/*BUTTONS*/
+
+.btn-ios{
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    background-color: #26bba5;
+    border-radius: 5rem;
+    box-shadow: 0rem 0.3rem 0.4rem #00000015;
+    font-family: 'Bai_Jamjuree' ;
+    font-weight: 600;
+    font-size: 0.7rem;
+    border-bottom: 2px solid #1d907f ;
+    cursor: pointer;
+}
+.btn-mac{
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    background-color:  #6174ff;
+    border-radius: 5rem;
+    box-shadow: 0rem 0.3rem 0.4rem #00000015;
+    font-family: 'Bai_Jamjuree' ;
+    font-size: 0.7rem;
+    font-weight: 600;
+    border-bottom: 2px solid #4553c3 ;
+    cursor: pointer;
+}
+
+/*MAIN- art-solo*/
+main{
+    width: 100%;
+    height: auto;
+    margin: 5rem 0;
+}
+.art-solo{
+    margin: 0 auto;
+    width: 60vw;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.art-solo p{
+    color: rgba(0, 0, 0, 0.479);
+}
+.art-solo h1 {
+    color: rgba(0, 0, 0, 0.779);
+    margin-bottom: 1rem;
+}
+/*MAIN- pc-area*/
+.pc-area{
+    display: flex;
+    flex-direction: row;
+}
+.pc-area img{
+    width: 50%;
+    position: relative;
+    right: 2rem;
+}
+.pc-area article{
+    margin: auto 0;
+    width: 50%;
+}
+
+.p-pc{
+    width: 70%;
+    color: rgba(0, 0, 0, 0.479);
+    line-height: 1.3rem;
+}
+
+
+/*MAIN- mob-area*/
+
+.mob-area {
+    margin: 3rem auto; 
+}
+.mob-area article {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.mob-area p {
+  width: 100%;
+  margin-bottom: 2rem;
+  color: rgba(0, 0, 0, 0.479);
+}
+.mob-area img{
+    width: 70vw;
+    margin: 0 8rem;
+}
+
+/*MAIN- vanta-area*/
+.vanta-area{
+    margin: 4rem 0;
+}
+.vanta-area article{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+.vt-area{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+
+}
+.item-vt{
+    text-align: center;
+    width: 33.3%;
+    margin: 0 1rem;
+}
+.item-vt img{
+    width: 10%;
+}
+.h2-vt {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+.p-vt{
+    font-size: 0.9rem;
+   
+}
+
+
+
+.empre{
+    margin: 3rem 0;
+    text-align: center;
+}
+.empre img{
+    width: 10vw;
+    margin-left: 2rem  ;
+}
+
+
+
+.down-area{
+    text-align: center;
+    margin-top: 3rem ;
+}
+.down-area article{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.down-area article h1{
+    margin-bottom: 1rem;
+}
+
+
+footer{
+    background-color: rgb(215, 215, 215);
+}
+.footer-area{
+    display: flex;
+    flex-direction: row;
+    margin: 0 3rem;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.footer-area #img img{
+    width: 5vw;
+    margin: 0 3rem;
+}
+.footer-area ul{
+    margin: 1rem;
+}
+.footer-area ul a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.505);
+}
+.footer-area ul a:hover{
+    text-decoration: none;
+    color: #26bba5;
+  }
+  .icon-area img{
+      margin-left: 0.5rem;
+  }
