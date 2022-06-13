@@ -122,7 +122,7 @@ main{
 /*MAIN- mob-area*/
 
 .mob-area {
-    margin: 3rem auto; 
+    margin: 4rem 0;
 }
 .mob-area article {
     text-align: center;
@@ -140,14 +140,14 @@ main{
 }
 
 /*MAIN- vanta-area*/
-.vanta-area{
-    margin: 4rem 0;
+.vanta-area {
+    height: 60vh;
 }
-.vanta-area article{
+.vanta-area article {
     text-align: center;
     width: 50%;
     margin: 0 auto;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
 }
 .vt-area{
     display: flex;
@@ -174,9 +174,10 @@ main{
 
 
 
-.empre{
+.empre {
     margin: 3rem 0;
     text-align: center;
+    height: 20vh;
 }
 .empre img{
     width: 10vw;
